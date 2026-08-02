@@ -88,3 +88,14 @@ nav.active {
     left: 50%;
     transform: translateX(-50%);
 }
+.logo{
+
+    position:absolute;
+
+    left:50%;
+
+    top:25px;
+
+    transform:translateX(-50%);
+
+}
