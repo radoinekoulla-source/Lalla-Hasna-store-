@@ -33,4 +33,38 @@ nav a{
 nav a:hover{
     color:#ff4fa3;
 }
+nav{
+    display:none;
+    position:absolute;
+    top:70px;
+    right:20px;
+    background:white;
+    width:180px;
+    padding:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    border-radius:10px;
+}
 
+nav.active{
+    display:flex;
+    flex-direction:column;
+}
+
+header{
+    justify-content:center;
+}
+
+.logo{
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.menu-btn{
+    position:absolute;
+    right:20px;
+    background:none;
+    border:none;
+    font-size:30px;
+    cursor:pointer;
+}
