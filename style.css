@@ -116,3 +116,6 @@ header{
 body{
     background:red !important;
 }
+body{
+    background-color: red !important;
+}
