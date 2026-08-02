@@ -68,3 +68,23 @@ header{
     font-size:30px;
     cursor:pointer;
 }
+nav {
+    display: none !important;
+}
+
+nav.active {
+    display: flex !important;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: white;
+    padding: 20px;
+    z-index: 999;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
