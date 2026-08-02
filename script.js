@@ -1,1 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+    background:#ffffff;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px;
+    background:white;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+h1{
+    color:#ff4fa3;
+    font-size:30px;
+}
+
+nav a{
+    text-decoration:none;
+    color:#333;
+    margin:0 10px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ff4fa3;
+}
