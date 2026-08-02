@@ -99,3 +99,17 @@ nav.active {
     transform:translateX(-50%);
 
 }
+header{
+    height:80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.logo{
+    position:absolute !important;
+    left:50% !important;
+    top:40px !important;
+    transform:translateX(-50%) !important;
+    margin:0 !important;
+}
